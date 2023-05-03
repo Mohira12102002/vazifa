@@ -4,13 +4,31 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'TT Hoves';
+    src: url(./fonts/TTHoves/TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+ }
 
+ @font-face {
+    font-family: 'Vampiro One';
+    src: url(./fonts/vompire/VampiroOne-Regular.ttf);
+ }
 .container{
     max-width: 1199px;
     margin: 0 auto;
 }
 
-
+.home{
+    background-image: url(./images/img1.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 1903px;
+    height: 840px;
+}
+.logo{
+    margin-bottom: 90px;
+}
 .services{
     text-align: center;
 }
@@ -157,7 +175,6 @@
 }
 .aboutUs .about_body .about_b_left img{
     width: 496px;
-    height: 648px;
 }
 
 
@@ -187,3 +204,104 @@
     width: 352px;
     margin-bottom: 30px;
 }
+
+.aboutUs .about_body .about_b_right  .sumbit a{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E15252;
+    box-shadow: 0px 4px 20px rgba(225, 82, 82, 0.5);
+    border-radius: 42px;
+    padding: 12px 28px;
+    text-decoration: none;
+}
+
+.contactUs{
+    background-image: url(./images/contact.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.contactUs .container{
+    background: #E15252;
+    border-radius: 0px 0px 50px 50px;
+    padding: 100px 302px 140px 110px;
+}
+.contactUs .contact_head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactUs .contact_head .title{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contactUs .contact_head .subtitle{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+.contact_body{
+    display: flex;
+}
+
+.contact_body_left form input{
+    background: #FFFFFF;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    margin-bottom: 14px;
+    border: none;
+}
+
+.contact_body_left form .btn{
+    border: 3px solid #FFFFFF;
+    border-radius: 61px;
+    width: 168px;
+    height: 56px;
+    margin-left: 103px;
+}
+
+.contact_body_right .mail, .contact_body_right .phone_number, .contact_body_right .address{
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.contact_body_right .mail img, .contact_body_right .phone_number img, .contact_body_right .address img{
+    margin-right: 23px;
+}
+.contact_body_right .mail a, .contact_body_right .phone_number a, .contact_body_right .address a{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 270px;
+}
+
+footer{
+    height: 92px;
+
+    background: #C4C4C4;
+}
+
