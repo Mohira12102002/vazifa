@@ -19,15 +19,63 @@
 }
 
 .home{
-    background-image: url(./images/img1.png);
+    background-image: url(./images/Slice\ 1.png);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     width: 100%;
-    height: 840px;
 }
-.logo{
-    margin-bottom: 90px;
+
+.home .container{
+    padding-top: 50px;
+    padding-bottom: 280px;
+}
+
+.home .logo{
+    margin-bottom: 190px;
+}
+
+.home_body .title1{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #E15252;
+}
+
+.home_body .title2{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 29px;
+    color: #333333;
+}
+
+.home_body .subtitle{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    width: 425px;
+    margin-bottom: 30px;
+}
+.home .home_body .sumbit a{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #E15252;
+    border-radius: 42px;
+    padding: 12px 40px;
 }
 .services{
     text-align: center;
